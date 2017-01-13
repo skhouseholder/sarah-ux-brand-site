@@ -2,7 +2,9 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: Sarah
 description: 
-url: https://esimonian.github.io/sarah-site
+
+url: https://localhost
+baseurl: ""
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -54,4 +56,3 @@ gems:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-tagging

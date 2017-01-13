@@ -4,10 +4,10 @@
     <nav>
       <div class="nav-wrapper">
         <ul class="center">
-          <li {%if page.title == 'About' %}class="active"{% endif %}><a href="/">About</a></li>
-          <li {%if page.title == 'Blog' %}class="active"{% endif %}><a href="/blog">Blog</a></li>
-          <li {%if page.title == 'Class' %}class="active"{% endif %}><a href="/class">Class</a></li>
-          <li {%if page.title == 'Contact' %}class="active"{% endif %}><a href="/contact">Contact</a></li>
+          <li {%if page.title == 'About' %}class="active"{% endif %}><a href="{{site.baseurl}}/">About</a></li>
+          <li {%if page.title == 'Blog' %}class="active"{% endif %}><a href="{{site.baseurl}}/blog">Blog</a></li>
+          <li {%if page.title == 'Class' %}class="active"{% endif %}><a href="{{site.baseurl}}/class">Class</a></li>
+          <li {%if page.title == 'Contact' %}class="active"{% endif %}><a href="{{site.baseurl}}/contact">Contact</a></li>
         </ul>
       </div>
     </nav>
