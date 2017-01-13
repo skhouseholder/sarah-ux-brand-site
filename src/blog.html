@@ -1,4 +1,30 @@
 ---
-layout: tag_page
+layout: default
 title: Blog
 ---
+
+<p>Not sure where to start? Most people start here</p>
+<ul class="post-list">
+    {% for post in site.categories.popular%}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+<p>Or these tags:</p>
+<div id="tag-cloud">
+  {{ site | tag_cloud }}
+</div>
+
+<ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  

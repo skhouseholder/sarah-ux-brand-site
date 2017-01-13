@@ -2,3 +2,30 @@
 layout: default
 title: Contact
 ---
+<h5>Hi! I'm Sarah,</h5>
+
+<p>I teach people how to do UX. (No design degree required!)</p>
+
+<p>If you want to make products that look and feel good, check out my class in the SF Bay Area: UX Design
+for Engineers.</p>
+
+<p>If you're not ready for that kind of commitment, my UX newsletter is a great way to get 
+better at UX from the comfort of your couch!</p>
+
+{% include newsletter.html %}
+<div class="home">
+
+  <h1 class="page-heading">Recent Posts:</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
