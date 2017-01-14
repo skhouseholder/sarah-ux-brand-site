@@ -2,6 +2,8 @@
 layout: default
 title: Contact
 ---
+{% include sub-header.html %}
+
 <h5>Hi! I'm Sarah,</h5>
 
 <p>I teach people how to do UX. (No design degree required!)</p>
@@ -17,15 +19,7 @@ better at UX from the comfort of your couch!</p>
 
   <h1 class="page-heading">Recent Posts:</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  {% include posts.html %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>

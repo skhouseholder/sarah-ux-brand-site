@@ -1,0 +1,10 @@
+<ul class="post-list">
+    {% for post in site.categories.popular%}
+      <li>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
