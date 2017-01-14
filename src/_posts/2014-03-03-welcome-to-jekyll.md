@@ -5,6 +5,7 @@ title:  Welcome to Jekyll!
 description: A post welcoming you to Jekyll
 categories: jekyll
 tags: jekyll learning testing
+comments: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build

@@ -5,6 +5,7 @@ title:  Video Blog
 description: 
 categories: popular
 tags: jekyll learning testing newtags
+comments: true
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build
