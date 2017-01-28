@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://esimonian.github.io/sarah-site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://esimonian.github.io/sarah-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://esimonian.github.io/sarah-site/" rel="alternate" type="text/html" /><updated>2017-01-28T12:52:12+07:00</updated><id>https://esimonian.github.io/sarah-site//</id><title type="html">Sarah</title><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><entry><title type="html">Video Blog</title><link href="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/" rel="alternate" type="text/html" title="Video Blog" /><published>2017-01-04T00:00:00+07:00</published><updated>2017-01-04T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/">&lt;div class=&quot;videoWrapper&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://esimonian.github.io/sarah-site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://esimonian.github.io/sarah-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://esimonian.github.io/sarah-site/" rel="alternate" type="text/html" /><updated>2017-01-28T13:09:53+07:00</updated><id>https://esimonian.github.io/sarah-site//</id><title type="html">Sarah</title><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><entry><title type="html">Illustrator Script: Export Artboards @2x</title><link href="https://esimonian.github.io/sarah-site/design/2017/01/28/illustrator-script-export-artboars/" rel="alternate" type="text/html" title="Illustrator Script: Export Artboards @2x" /><published>2017-01-28T00:00:00+07:00</published><updated>2017-01-28T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/design/2017/01/28/illustrator-script-export-artboars</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/design/2017/01/28/illustrator-script-export-artboars/">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col s12 m6&quot;&gt;
+  Exporting .ai artboards at dual resolution and renaming the subsequent files can be a big pain, so I recently scoured the internet for a script to do it for me. Nothing I found quite worked, so I modified and refactored one to meet my needs.
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 m6&quot;&gt;
+    &lt;img src=&quot;/assets/images/illustrator-script-post.png&quot; alt=&quot;Illustrator Script&quot;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;What it does&lt;/h3&gt;
+
+&lt;p&gt;The script exports all artboards to the directory of your choice at 100% and 200% scaling. It also names them in the form [filename]-[artboard name].png and [filename]-[artboard name]@2x.png.&lt;/p&gt;
+
+&lt;p&gt;It will also ignore locked layers so background or guide layers won’t get in your way every time you want to export something.&lt;/p&gt;
+
+&lt;h3&gt;Example output&lt;/h3&gt;
+
+&lt;p&gt;File name: dashboard icons.ai
+Artboard names: create, refresh, send
+Exported images:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;dashboard-icons-create.png&lt;/li&gt;
+&lt;li&gt;dashboard-icons-create*@*2x.png&lt;/li&gt;
+&lt;li&gt;dashboard-icons-refresh.png&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:dashboard-icons-refresh@2x.png&quot;&gt;dashboard-icons-refresh@2x.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;dashboard-icons-send.png&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:dashboard-icons-send@2x.png&quot;&gt;dashboard-icons-send@2x.png&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;How to install&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download the script here&lt;/li&gt;
+&lt;li&gt;Put the file in Illustrator’s scripts directory: Adobe Illustrator/Presets/Scripts&lt;/li&gt;
+&lt;li&gt;Restart Illustrator&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;How to use&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the .ai file you wish to export&lt;/li&gt;
+&lt;li&gt;Make sure the layers you wish to export are unlocked&lt;/li&gt;
+&lt;li&gt;Execute via File &amp;gt; Scripts&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;How to configure (optional)&lt;/h3&gt;
+
+&lt;p&gt;If you want specific syntax in your filenames or a hardcoded export directory, open the file in a text editor and review the comments. I’ve created several places where you can easily configure this script to fit your needs like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/script-instructions-example.png&quot; alt=&quot;Script instructions&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Special thanks&lt;/h3&gt;
+
+&lt;p&gt;I modified this script from a version by &lt;a href=&quot;https://www.google.com&quot;&gt;Hot Apps Factory&lt;/a&gt;which exports and names compatibly with Android apps as well as iOS. That script is itself an improvement on Herculano Campos’ script.&lt;/p&gt;</content><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><category term="illustrator" /><category term="artboards" /></entry><entry><title type="html">Video Blog</title><link href="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/" rel="alternate" type="text/html" title="Video Blog" /><published>2017-01-04T00:00:00+07:00</published><updated>2017-01-04T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/">&lt;div class=&quot;videoWrapper&quot;&gt;
   &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ScMzIvxBSi4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;</content><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><category term="video" /><category term="responsive" /></entry><entry><title type="html">UX vs. UI Design</title><link href="https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design/" rel="alternate" type="text/html" title="UX vs. UI Design" /><published>2015-02-23T00:00:00+07:00</published><updated>2015-02-23T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design/">&lt;p&gt;Many people use these terms interchangeably, but they are actually quite different and imply different skillsets among their practitioners.&lt;/p&gt;
 
