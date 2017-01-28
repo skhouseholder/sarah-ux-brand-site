@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://esimonian.github.io/sarah-site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://esimonian.github.io/sarah-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://esimonian.github.io/sarah-site/" rel="alternate" type="text/html" /><updated>2017-01-28T12:25:11+07:00</updated><id>https://esimonian.github.io/sarah-site//</id><title type="html">Sarah</title><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><entry><title type="html">Video Blog</title><link href="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/" rel="alternate" type="text/html" title="Video Blog" /><published>2017-01-04T00:00:00+07:00</published><updated>2017-01-04T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
-(or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add
-a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention:
-YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://esimonian.github.io/sarah-site/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="https://esimonian.github.io/sarah-site/feed.xml" rel="self" type="application/atom+xml" /><link href="https://esimonian.github.io/sarah-site/" rel="alternate" type="text/html" /><updated>2017-01-28T12:52:12+07:00</updated><id>https://esimonian.github.io/sarah-site//</id><title type="html">Sarah</title><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><entry><title type="html">Video Blog</title><link href="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/" rel="alternate" type="text/html" title="Video Blog" /><published>2017-01-04T00:00:00+07:00</published><updated>2017-01-04T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/popular/2017/01/04/video-blog/">&lt;div class=&quot;videoWrapper&quot;&gt;
+  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ScMzIvxBSi4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><category term="video" /><category term="responsive" /></entry><entry><title type="html">UX vs. UI Design</title><link href="https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design/" rel="alternate" type="text/html" title="UX vs. UI Design" /><published>2015-02-23T00:00:00+07:00</published><updated>2015-02-23T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/ux/2015/02/23/ux-vs-ui-design/">&lt;p&gt;Many people use these terms interchangeably, but they are actually quite different and imply different skillsets among their practitioners.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;UI stands for User Interface, but it could be described better as “the hardware or software through which a user interacts with a product.”&lt;/p&gt;
 
-&lt;p&gt;We&amp;rsquo;ve also added a lot of different settings for &lt;a href=&quot;https://github.com/vmg/redcarpet&quot;&gt;Redcarpet&lt;/a&gt;,
-including being able to &lt;sup&gt;superscript,&lt;/sup&gt; &lt;u&gt;underline&lt;/u&gt;, &lt;mark&gt;highlight&lt;/mark&gt;,
-&lt;del&gt;strikethrough&lt;/del&gt;, and footnotes.&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; It even automatically makes links into
-URLs: &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;www.jekyllrb.com&lt;/a&gt; and you can put multiple underscores in words without
-them leaning all over the place: this_word_has_underscores. It&amp;rsquo;ll also make your
-quotes look nice, like this: &amp;ldquo;hoho&amp;rdquo;, your dashes and hypens will be dashing too:
-&amp;mdash;/&amp;ndash;.&lt;/p&gt;
+&lt;p&gt;UX stands for User eXperience, but it could be more completely described as “what the user experiences throughout the entirety of his interaction with every aspect of a product.”&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;A simple example&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of
-Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&amp;rsquo;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Think of your TV. You probably interact with it via the remote control and maybe also some menus in the TV’s software. Both the physical control and the menus could be called the TV’s user interface.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
+&lt;p&gt;The user experience of your TV, though, encompasses a much broader set of things: how hard it was to unbox, whether the manual was easy to understand, how it looks in your living room, how many video inputs/outputs it has, whether the ports are easy to access, how long you had to wait on hold when you called the manufacturer to ask a question about it, etc.&lt;/p&gt;
 
-&lt;li id=&quot;fn1&quot;&gt;
-&lt;p&gt;Who are quite handy&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;p&gt;Clearly the remote control and the software menus are part of your experience with your TV. And in that same way, user interface design is a part of user experience design. Although people and roles vary, UX designers tend to be jacks of all trades while UI designers usually specialize in creating interfaces.&lt;/p&gt;
 
-&lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><category term="jekyll" /><category term="learning" /><category term="testing" /><category term="newtags" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2015-02-03T00:00:00+07:00</published><updated>2015-02-03T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll/">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
+&lt;p&gt;Some practical examples&lt;/p&gt;
+
+&lt;p&gt;A typical UI designer might try to answer questions like this:&lt;/p&gt;
+
+&lt;p&gt;What should our sign-up form look like? Should all the inputs be visible at once, or should some of them be hidden and then only appear after the user completes the first one? How should we inform the user if an email address isn’t valid or his preferred username has already been taken? Should the box get outlined in red, or should we put a little X next to it?
+On the product dashboard, what information should be displayed by default? How can we indicate to the user that items can be removed from the dashboard? Should we use an X icon in the corner of each item, or some other icon? Should the X icon always be visible on each item, or should it only appear on hover?
+Where should the navigation links appear on our website, the top or the side? Should the link to the contact page actually say “Contact,” or should it say “Email us” or “Support”? When a user filters our search results, how should we display which filters are applied? Does the user remove a filter by hitting “Back” or by clicking a tiny X next to each applied filter?
+A typical UX designer might consider some of the UI questions above, but he or she would also try to answer other questions about the product:&lt;/p&gt;
+
+&lt;p&gt;When sending emails to the customer, whom should the sender be – the name of the company? The name of the CSR? If a customer replies to an automated message, what happens to it? Do we just have a no-reply address, or does that message get sent to a person somewhere?
+Which is more important to launch first, feature X or feature Y?
+What should the structure of our website be? What pages should it have, and how should the user navigate between them?
+Should we spend time creating spectacular visual design, or is it better to work on improving feature X instead?
+Why do users buy our product? Why don’t they buy our product?&lt;/p&gt;</content><author><name>Sarah</name><uri>https://esimonian.github.io/</uri></author><category term="UX" /><category term="UI Design" /><category term="Design" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2015-02-03T00:00:00+07:00</published><updated>2015-02-03T00:00:00+07:00</updated><id>https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll</id><content type="html" xml:base="https://esimonian.github.io/sarah-site/jekyll/2015/02/03/welcome-to-jekyll/">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
 (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add
 a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention:
 YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
