@@ -88,6 +88,29 @@ div.nav-wrapper {
 h1.post-title {
   padding-top: 1em;
 }
+
+.PageNavigation {
+  padding-bottom: 1em;
+}
+
+.next {
+  float: right;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 1em;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* Tags */
 .chip:hover {
   background: #bdbdbd;
