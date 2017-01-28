@@ -11,5 +11,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-redirect-from'
 gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
-
 gem 'jekyll-compose', group: [:jekyll_plugins]

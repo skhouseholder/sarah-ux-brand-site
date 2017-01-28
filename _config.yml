@@ -19,8 +19,12 @@ author:
   email: 
   uri: https://esimonian.github.io/
   bio: 
-  twitter:
-  github:
+  twitter: test
+  github: test
+  facebook:         
+  linkedin:         test
+  medium:  
+  tumblr:  
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
