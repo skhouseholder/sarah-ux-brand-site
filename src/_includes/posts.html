@@ -1,11 +1,12 @@
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
       </h2>
-      <p class="post-description">{{post.description}}</p>
+      <!--
+      <p class="post-description">{{post.description}}</p>-->
     </li>
   {% endfor %}
 </ul>

@@ -6,8 +6,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <!--
     <div class="post-tags">{{ page | tags | remove:',' }}</div>
-    
+    -->
   </header>
 
   <div class="post-content" itemprop="articleBody">
@@ -15,6 +16,7 @@ layout: default
   </div>
 
 </article>
+<!--
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev left-align" href="{{page.previous.url}}"><i class="fa fa-chevron-left" aria-hidden="true"></i>{{page.previous.title}}</a>
@@ -23,7 +25,7 @@ layout: default
     <a class="next right-align" href="{{page.next.url}}">{{page.next.title}} <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
   {% endif %}
 </div>
-
+-->
 <h6>Sign up for my newsletter you'll love it!</h6>
 {% include newsletter.html %}
 {% if page.comments %}
