@@ -42,14 +42,20 @@ $on-laptop:        800px;
 a {
   color: #888;
 }
+a:hover, a:active {
+  color: #aaa;
+}
 .container {
   max-width: 600px;
 }
 /* Nav */
 ul.center {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 nav ul li.active {
@@ -76,7 +82,7 @@ div.nav-wrapper {
   font-weight: 600;
   line-height: 1.6;
 }
-
+/*
 .post-list {
   li {
     padding: 4% 0 2% 2%;
@@ -87,7 +93,7 @@ div.nav-wrapper {
     }
   }
 }
-
+*/
 .post-date {
   color: rgba(179, 179, 179, 0.8);
     font-size: .75rem;
