@@ -15,7 +15,7 @@ comments: true
   Exporting .ai artboards at dual resolution and renaming the subsequent files can be a big pain, so I recently scoured the internet for a script to do it for me. Nothing I found quite worked, so I modified and refactored one to meet my needs.
   </div>
   <div class="col s12 m6">
-    <img src="/assets/images/illustrator-script-post.png" alt="Illustrator Script">
+    <img src="{{site.baseurl}}/assets/images/illustrator-script-post.png" alt="Illustrator Script">
   </div>
 </div>
 
@@ -54,7 +54,7 @@ Exported images:
 
 If you want specific syntax in your filenames or a hardcoded export directory, open the file in a text editor and review the comments. I’ve created several places where you can easily configure this script to fit your needs like so:
 
-<img src="/assets/images/script-instructions-example.png" alt="Script instructions">
+<img src="{{site.baseurl}}/assets/images/script-instructions-example.png" alt="Script instructions">
 
 ### Special thanks
 
