@@ -17,7 +17,7 @@ $(function() {
       loadNewPostsThreshold = 3000;
   
   // Load the JSON file containing all URLs
-  $.getJSON('{{site.baseurl}}/all-posts.json', function(data) {
+  $.getJSON('https://esimonian.github.io/sarah-site/all-posts.json', function(data) {
     postURLs = data["posts"];
     
     // If there aren't any more posts available to load than already visible, disable fetching
