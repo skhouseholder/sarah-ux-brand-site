@@ -25,7 +25,13 @@ body {
     font-kerning: normal;
 }
 
-
+p {
+    font-family: 'Halant', serif;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: .014em;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

@@ -9,7 +9,7 @@ tags:
   - artboards
 comments: true
 ---
- 
+
 <div class="row">
   <div class="col s12 m6">
   Exporting .ai artboards at dual resolution and renaming the subsequent files can be a big pain, so I recently scoured the internet for a script to do it for me. Nothing I found quite worked, so I modified and refactored one to meet my needs.
