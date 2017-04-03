@@ -6,9 +6,9 @@
         {{ post.title }} 
       </h1>
       </a>
-      <span class="post-meta">{{ post.date | date_to_string }}</span>
       
       <div class="post-content post">{{post.content}}</div>
+      <p class="post-meta float-right"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">Posted on {{ post.date | date: "%b %-d, %Y" }}</time></p>
     </li>
   {% endfor %}
 </ul>
