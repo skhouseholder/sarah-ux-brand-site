@@ -4,7 +4,9 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+  <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+  </a>
     {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <!--
     <div class="post-tags">{{ page | tags | remove:',' }}</div>

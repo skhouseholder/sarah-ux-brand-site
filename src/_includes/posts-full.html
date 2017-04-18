@@ -2,7 +2,7 @@
   {% for post in site.posts limit: 2 %}  
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      <h1 class="post-title">
+      <h1 class="post-title post-title-full">
         {{ post.title }} 
       </h1>
       </a>
@@ -10,6 +10,9 @@
       <div class="post-content post">{{post.content}}</div>
       <p class="post-meta float-right"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">Posted on {{ post.date | date: "%b %-d, %Y" }}</time></p>
     </li>
+    <div style="clear:both"></div>
+    <hr class="post-hr">
+
   {% endfor %}
 </ul>
 
