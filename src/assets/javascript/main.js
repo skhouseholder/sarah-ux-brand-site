@@ -100,7 +100,9 @@ $(document).ready(function() {
   $('.set-4').addClass('chip')
   $('.set-5').addClass('chip')
   $('a[rel=tag]').addClass('chip')
-  $('.post-tags').html().replace(/, /g , '')
+  if ($('.post-tags').length > 1) {
+    $('.post-tags').html().replace(/, /g , '')
+  }
 });
 
 
