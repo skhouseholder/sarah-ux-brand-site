@@ -81,6 +81,7 @@ $(function() {
       $(data).find(".post").appendTo(".post-list-infinite");
       callback();
     });
+    $("article").append("<div style='clear:both'></div><hr class='post-hr'>")
   }
   
   function disableFetching() {
