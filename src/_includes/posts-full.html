@@ -9,9 +9,10 @@
       
       <div class="post-content post">{{post.content}}</div>
       <p class="post-meta float-right"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">Posted on {{ post.date | date: "%b %-d, %Y" }}</time></p>
+      <div style="clear:both"></div>
+      <hr class="post-hr">
     </li>
-    <div style="clear:both"></div>
-    <hr class="post-hr">
+    
 
   {% endfor %}
 </ul>
