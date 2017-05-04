@@ -78,10 +78,9 @@ $(function() {
     var postURL = postURLs[index];
     
     $.get(postURL, function(data) {
-      $(data).find(".post").appendTo(".post-list-infinite");
+      $(data).find(".post").appendTo(".post-list-infinite").append("<div style='clear:both'></div><hr class='post-hr'>");
       callback();
     });
-    $("article").append("<div style='clear:both'></div><hr class='post-hr'>")
   }
   
   function disableFetching() {
