@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<h2>{{ page.tag | upcase }}</h2>
+<p class="bold">Posts tagged with "{{ page.tag }}"</p>
  <ul class="post-list">
     {% for post in page.posts %}
       <li>
-      <span>{{ post.date | date_to_string }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
-        </h2>
+      <!--<span>{{ post.date | date_to_string }}</span>-->
+         <p class="minimal-links">          
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>
+
       </li>
     {% endfor %}
   </ul>
