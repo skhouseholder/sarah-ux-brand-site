@@ -15,7 +15,12 @@ comments: true
     <p>Exporting .ai artboards at dual resolution and renaming the subsequent files can be a big pain, so I recently scoured the internet for a script to do it for me. Nothing I found quite worked, so I modified and refactored one to meet my needs.</p>
   </div>
   <div class="col s12 m6">
-    <img src="{{site.baseurl}}/assets/images/illustrator-script-post.png" alt="Illustrator Script">
+    <div class="wp-caption alignright">
+      <img src="{{site.baseurl}}/assets/images/illustrator-script-post.png" alt="Illustrator Script">
+      <p class="wp-caption-text">
+        Configure once and then export in two clicks
+      </p>
+      </div>
   </div>
 </div>
 

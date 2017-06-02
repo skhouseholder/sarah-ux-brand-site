@@ -16,9 +16,11 @@ better at UX from the comfort of your couch!</p>
 {% include newsletter.html %}
 <div class="home">
 
+  <h1 class="page-heading">Popular Posts:</h1>
+  {% include home-posts.html %}
   <h1 class="page-heading">Recent Posts:</h1>
 
-  {% include home-posts.html %}
+  {% include posts.html %}
 <!--
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   -->
