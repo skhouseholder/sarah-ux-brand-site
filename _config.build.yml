@@ -7,5 +7,5 @@ show_drafts: false
 # Removes the upper limit for posts generated
 limit_posts: 0
 
-url: https://esimonian.github.io
-baseurl: /sarah-site
+url: https://skhouseholder.github.io
+baseurl: /sarah-ux-brand-site
