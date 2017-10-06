@@ -7,14 +7,14 @@ const argv = require('yargs').argv;
 if (argv.prod) {
   gulp.task('inject:head', () =>
     gulp.src('.tmp/src/_includes/head.html')
-      .pipe(inject(gulp.src('.tmp/assets/stylesheets/*.css'), {ignorePath: '.tmp', addPrefix: 'sarah-site'}))
+      .pipe(inject(gulp.src('.tmp/assets/stylesheets/*.css'), {ignorePath: '.tmp', addPrefix: 'sarah-ux-brand-site'}))
       .pipe(gulp.dest('.tmp/src/_includes'))
   );
 
   // 'gulp inject:footer' -- injects our index.js file into the end of our HTML
   gulp.task('inject:footer', () =>
     gulp.src('.tmp/src/_layouts/default.html')
-      .pipe(inject(gulp.src('.tmp/assets/javascript/*.js'), {ignorePath: '.tmp', addPrefix: 'sarah-site'}))
+      .pipe(inject(gulp.src('.tmp/assets/javascript/*.js'), {ignorePath: '.tmp', addPrefix: 'sarah-ux-brand-site'}))
       .pipe(gulp.dest('.tmp/src/_layouts'))
   );
 } else {
